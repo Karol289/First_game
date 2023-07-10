@@ -1,2 +1,3 @@
 # First_game
-My first game, made using SFML
+Mój projekt studencki na drugiem semestrze informatyki.
+Moja pierwsza gra wykonywana w języku C++ z użyciem biblioteki SFML. 
