@@ -1,0 +1,155 @@
+\doxysection{game\+World Class Reference}
+\hypertarget{classgame_world}{}\label{classgame_world}\index{gameWorld@{gameWorld}}
+
+
+{\ttfamily \#include $<$game\+World.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgame_world_a4b0a5cb3d22a68aa1a5b687233a19291}{game\+World}} (int selected\+Lv=1)
+\item 
+int \mbox{\hyperlink{classgame_world_aed8fd671df242b8561e9be449f0e61ac}{get\+GridY}} ()
+\item 
+int \mbox{\hyperlink{classgame_world_aa32ecc5f8e87bae5b6a4a918b53aac53}{get\+Moves}} ()
+\item 
+int \mbox{\hyperlink{classgame_world_ae785b8e036da0d35ecb1526a1116de79}{get\+Spike\+State}} ()
+\item 
+bool \mbox{\hyperlink{classgame_world_a30258c538eec908505bd92d684c52a9c}{cheach\+If\+Passable}} (int \+\_\+x, int \+\_\+y)
+\item 
+int \mbox{\hyperlink{classgame_world_a9630893b062af42294089354fd9476a5}{check\+If\+Object}} (int x, int y)
+\item 
+void \mbox{\hyperlink{classgame_world_af34eea2f9a3d98330627934026b54c28}{check\+If\+On\+Spike}} ()
+\item 
+void \mbox{\hyperlink{classgame_world_a708d201031d7f50ac1f3dd75fdf41b22}{chech\+Events}} (sf\+::\+Render\+Window \&\+\_\+window, sf\+::\+Event \&\+\_\+event)
+\item 
+void \mbox{\hyperlink{classgame_world_a028f67f862e00fc4d206a408422c7378}{check\+If\+On\+Exit}} (sf\+::\+Text \+\_\+text)
+\item 
+void \mbox{\hyperlink{classgame_world_ae23ff9157cec7daa6144d72d0551510d}{check\+Remaining\+Moves}} ()
+\item 
+void \mbox{\hyperlink{classgame_world_a53ced68268c0120ff8eee80a7d264f43}{draw\+Player}} (sf\+::\+Render\+Window \&\+\_\+window)
+\item 
+void \mbox{\hyperlink{classgame_world_a3ee4d033ca7d65994f7e1bd260d812f8}{draw\+Objects}} (sf\+::\+Render\+Window \&\+\_\+window)
+\item 
+void \mbox{\hyperlink{classgame_world_aaa847cc1c3607074d07caf24a3051343}{draw\+Tiles}} (sf\+::\+Render\+Window \&\+\_\+window)
+\item 
+void \mbox{\hyperlink{classgame_world_a29dae088e40c983bcfe5b820fc0cad7e}{operator-\/-\/}} (int)
+\item 
+bool \mbox{\hyperlink{classgame_world_a493a7736a0265c8a3d1a16971303ee0a}{operator++}} (int)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classgame_world_a4b0a5cb3d22a68aa1a5b687233a19291}\label{classgame_world_a4b0a5cb3d22a68aa1a5b687233a19291} 
+\index{gameWorld@{gameWorld}!gameWorld@{gameWorld}}
+\index{gameWorld@{gameWorld}!gameWorld@{gameWorld}}
+\doxysubsubsection{\texorpdfstring{gameWorld()}{gameWorld()}}
+{\footnotesize\ttfamily game\+World\+::game\+World (\begin{DoxyParamCaption}\item[{int}]{selected\+Lv = {\ttfamily 1} }\end{DoxyParamCaption})}
+
+Konstruktor ktory generuje mape ktora podamy w selected\+Lv 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classgame_world_a30258c538eec908505bd92d684c52a9c}\label{classgame_world_a30258c538eec908505bd92d684c52a9c} 
+\index{gameWorld@{gameWorld}!cheachIfPassable@{cheachIfPassable}}
+\index{cheachIfPassable@{cheachIfPassable}!gameWorld@{gameWorld}}
+\doxysubsubsection{\texorpdfstring{cheachIfPassable()}{cheachIfPassable()}}
+{\footnotesize\ttfamily bool game\+World\+::cheach\+If\+Passable (\begin{DoxyParamCaption}\item[{int}]{\+\_\+x,  }\item[{int}]{\+\_\+y }\end{DoxyParamCaption})}
+
+Metoda sprawdzajaca czy pole na ktore chcemy da sie wejsc 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+x} & mowi czy docelowe miejsce jest na lewo czy prawo \\
+\hline
+{\em \+\_\+y} & mowi czy docelowe miejsce jset u gory czy na dole \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classgame_world_a708d201031d7f50ac1f3dd75fdf41b22}\label{classgame_world_a708d201031d7f50ac1f3dd75fdf41b22} 
+\index{gameWorld@{gameWorld}!chechEvents@{chechEvents}}
+\index{chechEvents@{chechEvents}!gameWorld@{gameWorld}}
+\doxysubsubsection{\texorpdfstring{chechEvents()}{chechEvents()}}
+{\footnotesize\ttfamily void game\+World\+::chech\+Events (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{\+\_\+window,  }\item[{sf\+::\+Event \&}]{\+\_\+event }\end{DoxyParamCaption})}
+
+Metoda sprawdzajaca wciskane klawisze \Hypertarget{classgame_world_a9630893b062af42294089354fd9476a5}\label{classgame_world_a9630893b062af42294089354fd9476a5} 
+\index{gameWorld@{gameWorld}!checkIfObject@{checkIfObject}}
+\index{checkIfObject@{checkIfObject}!gameWorld@{gameWorld}}
+\doxysubsubsection{\texorpdfstring{checkIfObject()}{checkIfObject()}}
+{\footnotesize\ttfamily int game\+World\+::check\+If\+Object (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+Metoda ktora sprawdza czy na polu na ktory chcemy wejsc nie ma obiektu i jesli jest zwraca jego indeks 
+\begin{DoxyParams}{Parameters}
+{\em x} & pozycja x szukanego obiektu \\
+\hline
+{\em y} & pozycja y szukanego obiektu \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classgame_world_a028f67f862e00fc4d206a408422c7378}\label{classgame_world_a028f67f862e00fc4d206a408422c7378} 
+\index{gameWorld@{gameWorld}!checkIfOnExit@{checkIfOnExit}}
+\index{checkIfOnExit@{checkIfOnExit}!gameWorld@{gameWorld}}
+\doxysubsubsection{\texorpdfstring{checkIfOnExit()}{checkIfOnExit()}}
+{\footnotesize\ttfamily void game\+World\+::check\+If\+On\+Exit (\begin{DoxyParamCaption}\item[{sf\+::\+Text}]{\+\_\+text }\end{DoxyParamCaption})}
+
+Sprawdza czy nie weszlismy na wyjscie \Hypertarget{classgame_world_af34eea2f9a3d98330627934026b54c28}\label{classgame_world_af34eea2f9a3d98330627934026b54c28} 
+\index{gameWorld@{gameWorld}!checkIfOnSpike@{checkIfOnSpike}}
+\index{checkIfOnSpike@{checkIfOnSpike}!gameWorld@{gameWorld}}
+\doxysubsubsection{\texorpdfstring{checkIfOnSpike()}{checkIfOnSpike()}}
+{\footnotesize\ttfamily void game\+World\+::check\+If\+On\+Spike (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda sprawdzajaca czy na koniec ruchu nie stoimy na kolcach \Hypertarget{classgame_world_ae23ff9157cec7daa6144d72d0551510d}\label{classgame_world_ae23ff9157cec7daa6144d72d0551510d} 
+\index{gameWorld@{gameWorld}!checkRemainingMoves@{checkRemainingMoves}}
+\index{checkRemainingMoves@{checkRemainingMoves}!gameWorld@{gameWorld}}
+\doxysubsubsection{\texorpdfstring{checkRemainingMoves()}{checkRemainingMoves()}}
+{\footnotesize\ttfamily void game\+World\+::check\+Remaining\+Moves (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Sprawdza pozostale ruchy, jesli ich nie mamy restartuje poziom \Hypertarget{classgame_world_a3ee4d033ca7d65994f7e1bd260d812f8}\label{classgame_world_a3ee4d033ca7d65994f7e1bd260d812f8} 
+\index{gameWorld@{gameWorld}!drawObjects@{drawObjects}}
+\index{drawObjects@{drawObjects}!gameWorld@{gameWorld}}
+\doxysubsubsection{\texorpdfstring{drawObjects()}{drawObjects()}}
+{\footnotesize\ttfamily void game\+World\+::draw\+Objects (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{\+\_\+window }\end{DoxyParamCaption})}
+
+Rysuje obiekty w oknie \Hypertarget{classgame_world_a53ced68268c0120ff8eee80a7d264f43}\label{classgame_world_a53ced68268c0120ff8eee80a7d264f43} 
+\index{gameWorld@{gameWorld}!drawPlayer@{drawPlayer}}
+\index{drawPlayer@{drawPlayer}!gameWorld@{gameWorld}}
+\doxysubsubsection{\texorpdfstring{drawPlayer()}{drawPlayer()}}
+{\footnotesize\ttfamily void game\+World\+::draw\+Player (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{\+\_\+window }\end{DoxyParamCaption})}
+
+Rysuje gracza w oknie \Hypertarget{classgame_world_aaa847cc1c3607074d07caf24a3051343}\label{classgame_world_aaa847cc1c3607074d07caf24a3051343} 
+\index{gameWorld@{gameWorld}!drawTiles@{drawTiles}}
+\index{drawTiles@{drawTiles}!gameWorld@{gameWorld}}
+\doxysubsubsection{\texorpdfstring{drawTiles()}{drawTiles()}}
+{\footnotesize\ttfamily void game\+World\+::draw\+Tiles (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{\+\_\+window }\end{DoxyParamCaption})}
+
+Rysuje pola w oknie \Hypertarget{classgame_world_aed8fd671df242b8561e9be449f0e61ac}\label{classgame_world_aed8fd671df242b8561e9be449f0e61ac} 
+\index{gameWorld@{gameWorld}!getGridY@{getGridY}}
+\index{getGridY@{getGridY}!gameWorld@{gameWorld}}
+\doxysubsubsection{\texorpdfstring{getGridY()}{getGridY()}}
+{\footnotesize\ttfamily int game\+World\+::get\+GridY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Zwraca wysokosc mapy \Hypertarget{classgame_world_aa32ecc5f8e87bae5b6a4a918b53aac53}\label{classgame_world_aa32ecc5f8e87bae5b6a4a918b53aac53} 
+\index{gameWorld@{gameWorld}!getMoves@{getMoves}}
+\index{getMoves@{getMoves}!gameWorld@{gameWorld}}
+\doxysubsubsection{\texorpdfstring{getMoves()}{getMoves()}}
+{\footnotesize\ttfamily int game\+World\+::get\+Moves (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Zwraca pozostale ruchy \Hypertarget{classgame_world_ae785b8e036da0d35ecb1526a1116de79}\label{classgame_world_ae785b8e036da0d35ecb1526a1116de79} 
+\index{gameWorld@{gameWorld}!getSpikeState@{getSpikeState}}
+\index{getSpikeState@{getSpikeState}!gameWorld@{gameWorld}}
+\doxysubsubsection{\texorpdfstring{getSpikeState()}{getSpikeState()}}
+{\footnotesize\ttfamily int game\+World\+::get\+Spike\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Zwraca status kolcow \Hypertarget{classgame_world_a493a7736a0265c8a3d1a16971303ee0a}\label{classgame_world_a493a7736a0265c8a3d1a16971303ee0a} 
+\index{gameWorld@{gameWorld}!operator++@{operator++}}
+\index{operator++@{operator++}!gameWorld@{gameWorld}}
+\doxysubsubsection{\texorpdfstring{operator++()}{operator++()}}
+{\footnotesize\ttfamily bool game\+World\+::operator++ (\begin{DoxyParamCaption}\item[{int}]{ }\end{DoxyParamCaption})}
+
+Operator zwracajacy true jesli gracz stoi na wyjsciu \Hypertarget{classgame_world_a29dae088e40c983bcfe5b820fc0cad7e}\label{classgame_world_a29dae088e40c983bcfe5b820fc0cad7e} 
+\index{gameWorld@{gameWorld}!operator-\/-\/@{operator-\/-\/}}
+\index{operator-\/-\/@{operator-\/-\/}!gameWorld@{gameWorld}}
+\doxysubsubsection{\texorpdfstring{operator-\/-\/()}{operator--()}}
+{\footnotesize\ttfamily void game\+World\+::operator-\/-\/ (\begin{DoxyParamCaption}\item[{int}]{ }\end{DoxyParamCaption})}
+
+Operator zmniejszajacy moves o 1 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Projekt/\+Klasy/\mbox{\hyperlink{game_world_8h}{game\+World.\+h}}\item 
+Projekt/\+Klasy/\mbox{\hyperlink{game_world_8cpp}{game\+World.\+cpp}}\end{DoxyCompactItemize}

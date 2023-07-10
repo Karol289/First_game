@@ -1,0 +1,35 @@
+\doxysection{player.\+h}
+\hypertarget{player_8h_source}{}\label{player_8h_source}\index{Projekt/Klasy/player.h@{Projekt/Klasy/player.h}}
+\mbox{\hyperlink{player_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ }
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ <SFML/Graphics.hpp>}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#ifndef\ PLAYER\_H}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#define\ PLAYER\_H}}
+\DoxyCodeLine{00010\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classplayer}{player}}}
+\DoxyCodeLine{00011\ \{}
+\DoxyCodeLine{00012\ \ \ \ \ }
+\DoxyCodeLine{00013\ \ \ \ \ sf::Vector2i\ playerPos;}
+\DoxyCodeLine{00014\ \ \ \ \ sf::Sprite\ \ pSpirit;}
+\DoxyCodeLine{00015\ \ \ \ \ sf::Texture\ pTexture;}
+\DoxyCodeLine{00019\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \ \ \ \ \mbox{\hyperlink{classplayer_a97de83bce15f880241f561b55b016b02}{player}}();}
+\DoxyCodeLine{00023\ \ \ \ \ sf::Vector2i\ \mbox{\hyperlink{classplayer_a124450a4c857aa39263e69e217bb91fe}{getPlayerPos}}();}
+\DoxyCodeLine{00024\ \ \ \ \ sf::Sprite\ \mbox{\hyperlink{classplayer_aa2c61c58076c889b1220eb349a34503b}{getSprite}}();}
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classplayer_a488dcb2016cb89fc0379b4fbb0d75c4f}{setPlayerPos}}(sf::Vector2i\ xy);}
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{comment}{//Controls}}
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classplayer_a7bdc1c5b6bcbfc627c3d10210c395e19}{move\_up}}();}
+\DoxyCodeLine{00031\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classplayer_a1784ff413a717c1409437ef852c67273}{move\_down}}();}
+\DoxyCodeLine{00032\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classplayer_a05f83af0a0b2fd1d4c333986fdba2dc4}{move\_left}}();}
+\DoxyCodeLine{00033\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classplayer_aa489b31202b05ddda647fdcd86052cef}{move\_right}}();}
+\DoxyCodeLine{00034\ \};}
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00036\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ !PLAYER\_H}}
+\DoxyCodeLine{00037\ }
+
+\end{DoxyCode}

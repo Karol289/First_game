@@ -1,0 +1,25 @@
+﻿  brick.cpp
+H:\Pulpit\Praca domowa\PK\f6390c41-gr62-repo\Projekt\Projekt\Projekt\Klasy\object.h(7,10): fatal  error C1083: Nie można otworzyć pliku dołącz: 'SFML/Graphics.hpp': No such file or directory
+  door.cpp
+H:\Pulpit\Praca domowa\PK\f6390c41-gr62-repo\Projekt\Projekt\Projekt\Klasy\object.h(7,10): fatal  error C1083: Nie można otworzyć pliku dołącz: 'SFML/Graphics.hpp': No such file or directory
+  exit.cpp
+H:\Pulpit\Praca domowa\PK\f6390c41-gr62-repo\Projekt\Projekt\Projekt\Klasy\object.h(7,10): fatal  error C1083: Nie można otworzyć pliku dołącz: 'SFML/Graphics.hpp': No such file or directory
+  gameTile.cpp
+H:\Pulpit\Praca domowa\PK\f6390c41-gr62-repo\Projekt\Projekt\Projekt\Klasy\gameTile.h(3,10): fatal  error C1083: Nie można otworzyć pliku dołącz: 'SFML/Graphics.hpp': No such file or directory
+  gameWorld.cpp
+H:\Pulpit\Praca domowa\PK\f6390c41-gr62-repo\Projekt\Projekt\Projekt\Klasy\gameTile.h(3,10): fatal  error C1083: Nie można otworzyć pliku dołącz: 'SFML/Graphics.hpp': No such file or directory
+  key.cpp
+H:\Pulpit\Praca domowa\PK\f6390c41-gr62-repo\Projekt\Projekt\Projekt\Klasy\object.h(7,10): fatal  error C1083: Nie można otworzyć pliku dołącz: 'SFML/Graphics.hpp': No such file or directory
+  moves.cpp
+H:\Pulpit\Praca domowa\PK\f6390c41-gr62-repo\Projekt\Projekt\Projekt\Klasy\gameTile.h(3,10): fatal  error C1083: Nie można otworzyć pliku dołącz: 'SFML/Graphics.hpp': No such file or directory
+  object.cpp
+H:\Pulpit\Praca domowa\PK\f6390c41-gr62-repo\Projekt\Projekt\Projekt\Klasy\object.h(7,10): fatal  error C1083: Nie można otworzyć pliku dołącz: 'SFML/Graphics.hpp': No such file or directory
+  player.cpp
+H:\Pulpit\Praca domowa\PK\f6390c41-gr62-repo\Projekt\Projekt\Projekt\Klasy\player.h(3,10): fatal  error C1083: Nie można otworzyć pliku dołącz: 'SFML/Graphics.hpp': No such file or directory
+  skeleton.cpp
+H:\Pulpit\Praca domowa\PK\f6390c41-gr62-repo\Projekt\Projekt\Projekt\Klasy\object.h(7,10): fatal  error C1083: Nie można otworzyć pliku dołącz: 'SFML/Graphics.hpp': No such file or directory
+  spikes.cpp
+H:\Pulpit\Praca domowa\PK\f6390c41-gr62-repo\Projekt\Projekt\Projekt\Klasy\object.h(7,10): fatal  error C1083: Nie można otworzyć pliku dołącz: 'SFML/Graphics.hpp': No such file or directory
+  main.cpp
+H:\Pulpit\Praca domowa\PK\f6390c41-gr62-repo\Projekt\Projekt\Projekt\main.cpp(1,10): fatal  error C1083: Nie można otworzyć pliku dołącz: 'SFML/Graphics.hpp': No such file or directory
+  Generowanie kodu...

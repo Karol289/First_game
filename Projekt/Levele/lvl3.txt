@@ -1,0 +1,24 @@
+grid_x	8
+grid_y	7
+ppos	7 2
+epos	5 0
+moves	34
+trow	1 1 1 2 2 2 2 1
+trow	1 1 1 1 1 1 2 1
+trow	1 1 2 2 2 2 2 2
+trow	1 1 2 1 2 1 2 2
+trow	1 1 2 2 2 2 2 1
+trow	2 1 2 1 2 1 2 1
+trow	2 2 2 2 2 2 2 1
+obj	1 4 4
+obj	1 5 6
+obj	3 3 2
+obj	3 4 2
+obj	3 4 3
+obj	3 2 3
+obj	3 2 5
+obj	3 4 5
+obj	3 5 4
+obj	3 6 4
+obj	4 0 5
+obj	5 6 1
